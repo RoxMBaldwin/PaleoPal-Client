@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  font-family: 'Ubuntu', sans-serif;
 }
 
  body {
@@ -26,6 +27,9 @@ html {
 
 .name {
   background-color: Cyan;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
 }
 
 .main {
@@ -34,6 +38,8 @@ html {
   grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 5;
+
+  padding: 2em;
 }
 
 .getAll {
